@@ -12,7 +12,6 @@ cask "telegram@12.6" do
   end
 
   conflicts_with cask: "telegram"
-
   depends_on :macos
 
   app "Telegram.app"
