@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
+    paths: ["Casks/**", "Formula/**", ".github/workflows/tests.yml"]
   pull_request:
+    paths: ["Casks/**", "Formula/**", ".github/workflows/tests.yml"]
 
 jobs:
   test-bot:
