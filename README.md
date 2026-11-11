@@ -1,18 +1,26 @@
-# Slavafyi Tap
+# homebrew-tap
 
-## How do I install these formulae?
+[![brew test-bot](https://github.com/slavafyi/homebrew-tap/actions/workflows/tests.yml/badge.svg)](https://github.com/slavafyi/homebrew-tap/actions/workflows/tests.yml)
 
-`brew install slavafyi/tap/<formula>`
+Homebrew casks for my own tools and the app versions I pin.
 
-Or `brew tap slavafyi/tap` and then `brew install <formula>`.
+## Install
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "slavafyi/tap"
-brew "<formula>"
+```sh
+brew install slavafyi/tap/<name>
 ```
 
-## Documentation
+Or tap once with `brew tap slavafyi/tap`, then `brew install <name>`.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Casks
+
+| Cask | Description |
+| --- | --- |
+| [`huddle`](https://github.com/slavafyi/huddle) | A TUI for tasks, PRs and coding agents in Rex |
+| `telegram@12.6` | Telegram for macOS, pinned to 12.6 |
+
+`huddle` is updated automatically by its release workflow.
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
